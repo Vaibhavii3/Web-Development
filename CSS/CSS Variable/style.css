@@ -1,0 +1,32 @@
+:root {
+    --main-color: coral;
+    --primary-color: rgb(124, 124, 231);
+    --secondary-color: rgb(124, 231, 126);
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: var(--main-color);
+    position: relative;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+.box::before {
+    content: "Before";
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background-color: var(--primary-color);
+    padding: 5px;
+}
+
+.box::after {
+    content: "After";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background-color: var(--secondary-color);
+    padding: 5px;
+}
