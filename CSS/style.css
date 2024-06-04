@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.static {
+    position: static;
+    background-color: rgb(127, 96, 158);
+    padding: 20px;
+    transition: 1s ease-in;
+}
+
+.static:hover{
+    background-color: rgb(89, 70, 107);
+    color: #ffffff;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.relative:hover {
+    color: #ffffff;
+    transition: 1s ease-in;
+    background-color: rgb(103, 182, 209);
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    background-color: lightcoral;
+    border: 3.5px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 2s ease-in;
+}
+
+.absolute:hover {
+    background-color: rgb(147, 61, 61);
+    color: #ffffff;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    background-color: lightgreen;
+    border: 3.5px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 2s ease;
+}
+
+.fixed:hover {
+    background-color: rgb(73, 168, 73);
+    color: #ffffff;
+}
