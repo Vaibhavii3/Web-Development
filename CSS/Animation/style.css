@@ -1,0 +1,26 @@
+.box {
+    width: 100px;
+    height: 100px;
+    margin-left: 40%;
+    margin-top: 10%;
+    background-color: coral;
+    transition: transform 0.5s;
+}
+
+.box:hover {
+    transform: rotate(360deg);
+}
+
+/* Animation */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+
+/* .box {
+    animation: slide 2s infinite alternate;
+} */
