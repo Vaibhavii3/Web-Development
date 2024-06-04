@@ -1,0 +1,19 @@
+.solid-bg {
+    background-color: rgb(216, 255, 177);
+    padding: 20px;
+    margin: 10px;
+}
+
+.image-bg {
+    background-image: url('b1.jpg');
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.gradient-bg {
+    background: linear-gradient(to right, rgb(110, 146, 56), rgb(204, 255, 86));
+    padding: 20px;
+    margin: 10px;
+}
