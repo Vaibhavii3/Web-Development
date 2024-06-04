@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.item1, .item2, .item3, .item4 {
+    background-color: lightcoral;
+    padding: 20px;
+}
