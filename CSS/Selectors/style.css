@@ -1,0 +1,27 @@
+/* Basic Selectors */
+h1 {
+    color: blue;
+}
+
+#paragraph {
+    font-size: 18px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+/* Attribute Selectors */
+a[href] {
+    color: red;
+}
+
+/* Pseudo-classes */
+a:hover {
+    color: green;
+}
+
+/* Pseudo-elements */
+p::first-line {
+    font-weight: bold;
+}
